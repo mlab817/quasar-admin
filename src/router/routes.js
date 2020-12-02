@@ -19,6 +19,8 @@ const routes = [
       {path: '/Pagination', component: () => import('pages/Pagination.vue')},
       {path: '/Taskboard', component: () => import('pages/TaskBoard.vue')},
       {path: '/Ecommerce', component: () => import('pages/ProductCatalogues.vue')},
+      {path: '/Teams', component: () => import('pages/Teams.vue')},
+      {path: '/MyTeams', component: () => import('pages/MyTeams.vue')},
     ]
   },
   {
